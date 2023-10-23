@@ -1,0 +1,360 @@
+@media (max-width: 1300px) {
+  .partner__inner {
+    flex-wrap: wrap;
+  }
+  .partner__img {
+    margin-bottom: 50px;
+  }
+  .partner__benefits {
+    width: 100%;
+  }
+  .benefits__item:not(:last-child) {
+    margin-bottom: 45px;
+    text-align: left;
+  }
+  .benefits__item {
+    text-align: left;
+    position: relative;
+    &::before {
+      content: none;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .suitable__title {
+    font-size: 46px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1080px) {
+  .logo {
+    z-index: 2;
+  }
+  .menu {
+    display: none;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-500%);
+  }
+  .header__link {
+    display: none;
+  }
+  .menu-burger {
+    display: block;
+  }
+  .services__box {
+    flex-wrap: wrap;
+  }
+  .services__title {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .services__title,
+  .services__text {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 940px) {
+  .suitable__items {
+    flex-wrap: wrap;
+  }
+  .suitable__item {
+    width: 100%;
+  }
+  .suitable__item-text {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .suitable__item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  .do__items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .do__item::before {
+    content: "";
+    display: none;
+  }
+  .do__title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .do__label {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .works::before {
+    content: none;
+  }
+  .works__title {
+    margin-bottom: 60px;
+    font-size: 46px;
+  }
+  .works__list {
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  .works__item {
+    width: 100%;
+  }
+  .services__actions {
+    flex-wrap: wrap;
+  }
+  .services__item {
+    width: 100%;
+  }
+  .services__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__box {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__box:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .result__slider-img {
+    width: 600px !important;
+    height: 300px !important;
+  }
+  .suitable__title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .do__items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .works__box {
+    flex-wrap: wrap;
+  }
+  .works__box-item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  .services__item-img {
+    margin-bottom: 20px;
+  }
+  .services__item-who {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .services__text {
+    font-size: 18px;
+  }
+  .services__item-txt {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .header__top-inner {
+    margin-bottom: 0;
+  }
+  .header__bottom-title {
+    font-size: 38px;
+    margin-bottom: 15px;
+    span {
+      font-size: 48px;
+    }
+  }
+  .header__bottom-label {
+    margin-bottom: 20px;
+  }
+  .header__bottom-btn {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 25px 60px;
+  }
+  .header__bottom-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 630px) {
+}
+@media (max-width: 540px) {
+  .prices__card-name {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+  .prices__old {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .prices__old::before {
+    content: "";
+    width: 136px;
+    top: 20px;
+    left: 0;
+  }
+  .prices__new {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .prices__text {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .prices__list-item {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .prices__list-item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .prices__label {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+  .prices__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 47px;
+  }
+  .result__title {
+    font-size: 24px !important;
+    margin-bottom: 20px;
+  }
+  .result__slider-img {
+    width: 500px !important;
+    height: 300px !important;
+  }
+  .works__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 476px) {
+  .prices__card-name {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .prices__list-item {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .prices__card {
+    max-width: 100%;
+    padding: 10px 10px;
+  }
+  .prices__list {
+    margin-bottom: 20px;
+  }
+  .prices__label {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+  .prices__details {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .prices__title {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .result__slider-img {
+    width: 400px !important;
+    height: 290px !important;
+  }
+  .suitable__item-name {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .suitable__title {
+    font-size: 20px !important;
+  }
+  .suitable__item-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .do__items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+  }
+  .do__item {
+    text-align: center;
+  }
+  .do__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .do__label {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .services__text {
+    font-size: 12px;
+  }
+  .services__title {
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+  .header__bottom-title span {
+    font-size: 36px;
+  }
+  .header__bottom-title {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+  .header__bottom-subtitle {
+    margin-bottom: 15px;
+  }
+  .header__bottom-label {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .header__bottom-btn {
+    font-size: 16px;
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__box-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .footer__list-link {
+    font-size: 14px;
+  }
+  .prices__title {
+    font-size: 18px !important;
+  }
+  .result__slider-img {
+    width: 250px !important;
+    height: 200px !important;
+  }
+  .suitable__title {
+    font-size: 18px !important;
+  }
+  .suitable__item-name {
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+  .do__title {
+    font-size: 20px;
+  }
+  .do__label {
+    font-size: 14px;
+  }
+  .works__item-text {
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    font-size: 22px;
+  }
+  .works__item-title {
+    font-size: 32px;
+  }
+  .works__box {
+    margin-bottom: 30px;
+  }
+  .menu__link {
+    font-size: 14px;
+  }
+}
