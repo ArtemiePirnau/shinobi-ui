@@ -93,16 +93,18 @@ h6 {
   display: none;
 }
 .menu.show {
+  z-index: 3;
   display: block;
-  // background-color: $bg;
+  background-color: #000;
   transform: translateY(0%);
   position: absolute;
   width: 100%;
-  top: 30px;
+  top: 0px;
   left: 0;
   right: 0;
   text-align: center;
   margin: 0 auto;
+  padding: 30px;
 }
 .menu__list.show {
   display: block;
